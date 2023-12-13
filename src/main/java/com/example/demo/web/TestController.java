@@ -14,6 +14,6 @@ public class TestController {
 
     @GetMapping
     public ResponseEntity<Map<String,String>> test() {
-        return ResponseEntity.ok(Map.of("message", "Hello Khushbuuuuu!"));
+        return ResponseEntity.ok(Map.of("message", "Hello world!"));
     }
 }
